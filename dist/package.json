@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "Heroku App",
-  "author": "gearmobile",
+  "author": "ahodav",
   "private": true,
   "scripts": {
     "postinstall": "npm install express",
