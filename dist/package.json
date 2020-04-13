@@ -5,7 +5,7 @@
   "author": "gearmobile",
   "private": true,
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "npm install express"
+    "postinstall": "npm install express",
+    "start": "node server.js"
   }
 }
