@@ -6,6 +6,6 @@
   "private": true,
   "scripts": {
     "postinstall": "npm install express serve-static cors",
-    "start": "node server.js"
+    "start": "node index.js"
   }
 }
