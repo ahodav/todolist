@@ -1,7 +1,9 @@
 var express = require('express')
 var path = require('path')
+var cors = require('cors')
 var serveStatic = require('serve-static')
 app = express()
+app.use(cors())
 app.use(serveStatic(__dirname))
 var port = process.env.PORT || 5000
 app.listen(port)
